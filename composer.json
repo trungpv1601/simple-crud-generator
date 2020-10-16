@@ -1,16 +1,16 @@
 {
-    "name": ":vendor_name/:package_name",
-    "description": ":package_description",
+    "name": "trungpv1601/simple-crud-generator",
+    "description": "Simple Generator CRUD: TailwindCSS + Laravel Blade + Alpine.js",
     "keywords": [
-        ":vendor_name",
-        ":package_name"
+        "trungpv1601",
+        "simple-crud-generator"
     ],
-    "homepage": "https://github.com/:vendor_name/:package_name",
+    "homepage": "https://github.com/trungpv1601/simple-crud-generator",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
+            "name": "trungpv",
+            "email": "trungpv1601@gmail.com",
             "homepage": "https://spatie.be",
             "role": "Developer"
         }
@@ -27,13 +27,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src",
-            "Spatie\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Trungpv1601\\SimpleCrudGenerator\\": "src",
+            "Trungpv1601\\SimpleCrudGenerator\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "Trungpv1601\\SimpleCrudGenerator\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -48,10 +48,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\Skeleton\\SkeletonServiceProvider"
+                "Trungpv1601\\SimpleCrudGenerator\\SimpleCrudGeneratorServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "Spatie\\Skeleton\\SkeletonFacade"
+                "SimpleCrudGenerator": "Trungpv1601\\SimpleCrudGenerator\\SimpleCrudGeneratorFacade"
             }
         }
     },

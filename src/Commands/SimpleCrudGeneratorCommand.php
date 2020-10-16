@@ -1,12 +1,12 @@
 <?php
 
-namespace Spatie\Skeleton\Commands;
+namespace Trungpv1601\SimpleCrudGenerator\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class SimpleCrudGeneratorCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'simple-crud-generator';
 
     public $description = 'My command';
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Skeleton\Database\Factories;
+namespace Trungpv1601\SimpleCrudGenerator\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 
