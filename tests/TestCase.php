@@ -2,7 +2,6 @@
 
 namespace Trungpv1601\SimpleCrudGenerator\Tests;
 
-use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
 use Trungpv1601\SimpleCrudGenerator\SimpleCrudGeneratorServiceProvider;
 
@@ -12,9 +11,6 @@ class TestCase extends Orchestra
     {
         parent::setUp();
 
-        Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'Trungpv1601\\SimpleCrudGenerator\\Database\\Factories\\'.class_basename($modelName).'Factory'
-        );
     }
 
     protected function getPackageProviders($app)
